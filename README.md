@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/danielTunwashe/PizzaAPI">
-    <img src="./Images/main-pic.jpeg" alt="Logo" width="90%" height="30%">
+    <img src="./Images/main-pic.jpg" alt="Logo" width="90%" height="30%">
   </a>
 </div>
 
@@ -43,7 +43,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-PizzaAPI">About PizzaAPI</a>
+      <a href="#about-pizzaapi">About PizzaAPI</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -61,7 +61,7 @@
 ---
 
 <!-- About the Blog -->
-## About PizzaAPI
+## About PizzaApi
 
 PizzaAPI is an API built on Flask-RESTX framework and properly documented in swagger UI. This API consists of various endpoints such as authentication, signup, retrieving all orders etc.
 
@@ -131,7 +131,7 @@ To use this API, follow these steps:
 
 <br />
 
-[![AltSchool Pizza Screenshot][altschool-pizza-screenshot]](https://github.com/danielTunwashe/PizzaAPI/blob/main/Images/sample.png)
+[![PizzaAPI Screenshot][PizzaAPI-screenshot]](https://github.com/danielTunwashe/PizzaAPI/blob/main/Images/sample.png)
 
 <br/>
 
@@ -173,19 +173,19 @@ This project was made possible by:
 ---
 
 <!-- Markdown Links & Images -->
-[contributors-shield]: https://img.shields.io/github/contributors/Ze-Austin/altschool-pizza.svg?style=for-the-badge
-[contributors-url]: https://github.com/Ze-Austin/altschool-pizza/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Ze-Austin/altschool-pizza.svg?style=for-the-badge
-[forks-url]: https://github.com/Ze-Austin/altschool-pizza/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ze-Austin/altschool-pizza.svg?style=for-the-badge
-[stars-url]: https://github.com/Ze-Austin/altschool-pizza/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Ze-Austin/altschool-pizza.svg?style=for-the-badge
-[issues-url]: https://github.com/Ze-Austin/altschool-pizzaissues
+[contributors-shield]: https://img.shields.io/github/contributors/danielTunwashe/PizzaAPI.svg?style=for-the-badge
+[contributors-url]: https://github.com/danielTunwashe/PizzaAPI/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/danielTunwashe/PizzaAPI.svg?style=for-the-badge
+[forks-url]: https://github.com/danielTunwashe/PizzaAPI/network/members
+[stars-shield]: https://img.shields.io/github/stars/danielTunwashe/PizzaAPI.svg?style=for-the-badge
+[stars-url]: https://github.com/danielTunwashe/PizzaAPI/stargazers
+[issues-shield]: https://img.shields.io/github/issues/danielTunwashe/PizzaAPI.svg?style=for-the-badge
+[issues-url]: https://github.com/danielTunwashe/PizzaAPIissues
 [license-shield]: https://img.shields.io/github/license/Ze-Austin/altschool-pizza.svg?style=for-the-badge
-[license-url]: https://github.com/Ze-Austin/altschool-pizza/blob/main/LICENSE.txt
-[twitter-shield]: https://img.shields.io/badge/-@ze_austin-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
-[twitter-url]: https://twitter.com/ze_austin
-[altschool-pizza-screenshot]: https://github.com/Ze-Austin/altschool-pizza/blob/main/Images/screenshot.png
+[license-url]: https://github.com/danielTunwashe/PizzaAPI/blob/main/LICENSE.txt
+[twitter-shield]: https://img.shields.io/badge/-@DTunwashe-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/DTunwashe
+[twitter-url]: https://twitter.com/DTunwashe
+[PizzaAPI-screenshot]: https://github.com/danielTunwashe/PizzaAPI/blob/main/Images/sample.png
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [flask]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 [sqlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
