@@ -6,6 +6,8 @@ from datetime import timedelta
 
 BASE_DIR=os.path.dirname(os.path.realpath(__file__))
 
+
+
 class Config:
     SECRET_KEY=config('SECRET_KEY','secret')
     JWT_ACCESS_TOKEN_EXPIRES=timedelta(minutes=30)
@@ -29,7 +31,9 @@ class TestConfig(Config):
     SQLALCHEMY_ECHO=True
 
 class ProdConfig(Config):
-    pass
+    SQLALCHEMY_DATABASE_URI=config('DATABASE_URL')
+    SQLALCHEMY_TRACK_MODIFICATIONS=False
+    DEBUF=config('DEBUG', cast=bool)
 
 config_dict={
     'dev' : DevConfig,
