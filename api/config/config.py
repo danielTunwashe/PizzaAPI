@@ -37,7 +37,7 @@ class TestConfig(Config):
     SQLALCHEMY_ECHO=True
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI=uri
+    SQLALCHEMY_DATABASE_URI='sqlite:///'+os.path.join(BASE_DIR,'db.sqlite3')
     SQLALCHEMY_TRACK_MODIFICATIONS=False
     DEBUF=config('DEBUG', cast=bool)
 
