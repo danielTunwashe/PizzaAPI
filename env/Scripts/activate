@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Tunwashe Daniel\Desktop\pizzaAPI\env"
+VIRTUAL_ENV="C:\Users\tunwa\OneDrive\Desktop\PizzaApi\pizzaApi\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
